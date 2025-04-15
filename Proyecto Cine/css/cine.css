@@ -121,51 +121,34 @@
     color: aliceblue;
     margin-bottom: 200px;
 }
-#formulario-sugerencias {
-    text-align: center;
-    padding: 20px;
-    background: rgb(0, 0, 0);
-    color: white;
-    margin: 40px auto;
-    width: 50%;
-    border-radius: 10px;
+
+
+
+
+
+.boton-formulario-container {
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
 }
 
-#formulario-sugerencias h2 {
-    color: red;
+.boton-formulario {
+    display: inline-block; 
+    background-color: red; 
+    color: white; 
+    padding: 15px 30px; 
+    text-decoration: none; 
+    border-radius: 8px; 
+    font-size: 1.2rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border: none; 
 }
 
-#formulario-sugerencias form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.boton-formulario:hover {
+    background-color: #cc0000; 
 }
 
-#formulario-sugerencias label {
-    font-size: 18px;
-}
-
-#formulario-sugerencias input {
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    color: azure;
-}
-
-#formulario-sugerencias button {
-    padding: 10px;
-    font-size: 18px;
-    background: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#formulario-sugerencias button:hover {
-    background: darkred;
-}
 
 #piePagina {
     background: rgb(20, 20, 20);

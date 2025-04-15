@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+</head>
+<body>
+    <div class="formulario-contenedor">
+        <h1>Cuéntanos tu película favorita</h1>
+        <form id="formulario-pelicula">
+            <div class="campo">
+                <label for="nombre">Tu nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="campo">
+                <label for="pelicula">Tu película favorita:</label>
+                <input type="text" id="pelicula" name="pelicula" required>
+            </div>
+            <button type="submit">Enviar película</button>
+            <p class="mensaje-enviado" style="display:none;">¡Gracias por compartir tu película!</p>
+        </form>
+        <div class="volver-inicio">
+            <a href="./index.html">Volver al inicio</a>
+        </div>
+    </div>
+</body>
+</html>
